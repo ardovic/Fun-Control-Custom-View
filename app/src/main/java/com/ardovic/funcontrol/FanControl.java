@@ -40,9 +40,6 @@ public class FanControl extends View {
 
     private void init(AttributeSet attrs) {
 
-        mFanOnColor = Color.CYAN;
-        mFanOffColor = Color.GRAY;
-
         if (attrs != null) {
             TypedArray typedArray = getContext().obtainStyledAttributes(attrs,
                             R.styleable.FanControl,
